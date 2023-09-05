@@ -6,7 +6,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-main{
+main>.we-are-gamer, .online-games,.play-instantly{
     margin: 0 200px ;
  }
 
@@ -182,4 +182,68 @@ nav li a{
 
 .games-card img{
 width: 100%;
+}
+/* play-instantly-container section */
+
+.play-instantly-container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 50px auto;
+}
+.play-instantly-content{
+    text-align: right;
+    /* margin-right: 100px; */
+
+}
+.play-instantly-img img{
+    width: 100%;
+}
+.small-img img{
+    max-width: 200px;
+    position: relative;
+    top: -150px; left: 480px;
+}
+
+/* career section */
+.career{
+    display: flex;
+    align-items: center;
+   gap: 30px;
+   background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+   padding: 50px 200px;
+   margin-bottom: 100px;
+   
+
+}
+.career-content{
+    color: #ffff;
+    width: 50%;
+}
+.career-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.btn-see-all-position{
+    color: #7a0944;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 0;
+    border-radius: 48px;
+    background: #FFF;
+    padding: 10px 20px;
+}
+.career-img{
+    width: 50%;
+}
+.career-img img{
+   width:100% ;
+}
+.position-info{
+    display: flex;
+    gap: 10px;
+}
+.position-location{
+    text-align: right;
+
 }

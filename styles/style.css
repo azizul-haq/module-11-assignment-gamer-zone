@@ -149,3 +149,37 @@ nav li a{
     font-size: 2rem;
     font-weight: 700;
 }
+
+/* online game section */
+.online-games{
+    margin-top: 100px;
+   
+}
+.online-game-content{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.online-game-content-title{
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.games-card img:hover{
+    
+    box-shadow: inset 0 0 0 2000px rgba(20, 20, 20, 0.3);
+    opacity: 200px;
+   
+}
+
+.online-games-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    
+   
+}
+
+.games-card img{
+width: 100%;
+}

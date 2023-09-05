@@ -6,7 +6,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-main>.we-are-gamer, .online-games,.play-instantly{
+main>.we-are-gamer, .online-games,.play-instantly,.btn-container{
     margin: 0 200px ;
  }
 
@@ -246,4 +246,32 @@ width: 100%;
 .position-location{
     text-align: right;
 
+}
+/* button section */
+.btn-container{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 50px 200px;
+}
+.button{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #0B0223;
+    border: 0;
+    border-radius: 50px;
+    padding: 10px 20px;
+    height: 50px;
+   
+}
+.button:hover{
+    background-color: #fff;
+    border: 2px solid rgb(156, 20, 66);
+    color: rgb(156, 20, 66);
+}
+.button img{
+    width: 20%;
 }
